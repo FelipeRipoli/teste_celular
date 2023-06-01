@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:ital,wght@1,500&display=swap');
+:root{
+    --colorBackgroundMain: #8ff29e7a;
+    --colorBackgroundBody: #d7d7d790;
+    --colorh1: #21702C;
+    --colorh2: #0FBD18;
+    --colorA: #1FA33E;
+
+    --fontH: 'Raleway', sans-serif;
+    --fontP: 'Open Sans', sans-serif;
+}
+
+.main{
+    padding: 15px;
+    background-color: var(--colorBackgroundBody);
+}
+
+.main h1{
+    font-family: var(--fontH);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.304);
+    color: var(--colorh1);
+}
+
+.main h2{
+    font-family: var(--fontH);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.304);
+    color: var(--colorh2); 
+}
+
+.main p{
+    font-family: var(--fontP);
+    text-align: justify;
+}
+
+.main footer p{
+    text-align: center;
+    padding: 20px;
+}
